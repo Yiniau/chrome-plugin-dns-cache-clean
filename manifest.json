@@ -1,11 +1,17 @@
 {
   "name": "chrome-plugin-dns-cache-clean",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "chrome dns cache cleaer",
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
-  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_icon": {
+      "128": "image/paper-plane.png"
+    }
+  },
+  
+  "permissions": [ "activeTab", "tabs", "chrome://net-internals/#sockets", "http://*/*", "https://*/*" ],
   "manifest_version": 2
 }
