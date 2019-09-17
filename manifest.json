@@ -1,0 +1,11 @@
+{
+  "name": "chrome-plugin-dns-cache-clean",
+  "version": "0.0.1",
+  "description": "chrome dns cache cleaer",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab"],
+  "manifest_version": 2
+}

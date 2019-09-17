@@ -1,0 +1,10 @@
+{
+  "name": "chrome-plugin-dns-cache-clean",
+  "version": "0.0.1",
+  "description": "chrome dns cache cleaer",
+  "main": "background.js",
+  "repository": "https://github.com/Yiniau/chrome-plugin-dns-cache-clean.git",
+  "author": "yiniau <yiranzhouyida@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
